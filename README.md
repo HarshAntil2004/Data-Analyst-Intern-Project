@@ -1,4 +1,4 @@
-# Data Analyst Internship Project
+# titanic-taxi-diamonds-analysis ( Data Analyst Internship Project )
 
 Six tasks covering data science fundamentals, a hands-on lab, a real-world dataset analysis, tool mastery, business analytics reporting and a final capstone.
 
