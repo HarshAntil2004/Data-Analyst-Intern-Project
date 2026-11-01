@@ -1,0 +1,174 @@
+{
+ "env": {
+  "python": "3.12.3",
+  "pandas": "3.0.2",
+  "numpy": "2.4.4",
+  "matplotlib": "3.10.8",
+  "seaborn": "0.13.2",
+  "scipy": "1.17.1",
+  "scikit-learn": "1.8.0"
+ },
+ "shape": [
+  244,
+  7
+ ],
+ "dtypes": {
+  "total_bill": "float64",
+  "tip": "float64",
+  "sex": "str",
+  "smoker": "str",
+  "day": "str",
+  "time": "str",
+  "size": "int64"
+ },
+ "missing": 0,
+ "dups": 1,
+ "describe": {
+  "total_bill": {
+   "count": 244.0,
+   "mean": 19.79,
+   "std": 8.9,
+   "min": 3.07,
+   "25%": 13.35,
+   "50%": 17.8,
+   "75%": 24.13,
+   "max": 50.81
+  },
+  "tip": {
+   "count": 244.0,
+   "mean": 3.0,
+   "std": 1.38,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 2.9,
+   "75%": 3.56,
+   "max": 10.0
+  },
+  "size": {
+   "count": 244.0,
+   "mean": 2.57,
+   "std": 0.95,
+   "min": 1.0,
+   "25%": 2.0,
+   "50%": 2.0,
+   "75%": 3.0,
+   "max": 6.0
+  }
+ },
+ "filter_big_bills": 32,
+ "tip_pct_mean": 16.08,
+ "tip_pct_median": 15.48,
+ "by_day": {
+  "Fri": {
+   "n": 19,
+   "avg_bill": 17.15,
+   "avg_tip": 2.73,
+   "tip_pct": 16.99
+  },
+  "Sat": {
+   "n": 87,
+   "avg_bill": 20.44,
+   "avg_tip": 2.99,
+   "tip_pct": 15.31
+  },
+  "Sun": {
+   "n": 76,
+   "avg_bill": 21.41,
+   "avg_tip": 3.26,
+   "tip_pct": 16.69
+  },
+  "Thur": {
+   "n": 62,
+   "avg_bill": 17.68,
+   "avg_tip": 2.77,
+   "tip_pct": 16.13
+  }
+ },
+ "by_time": {
+  "Dinner": {
+   "n": 176,
+   "avg_bill": 20.8,
+   "tip_pct": 15.95
+  },
+  "Lunch": {
+   "n": 68,
+   "avg_bill": 17.17,
+   "tip_pct": 16.41
+  }
+ },
+ "by_smoker": {
+  "No": 15.93,
+  "Yes": 16.32
+ },
+ "by_sex": {
+  "Female": 16.65,
+  "Male": 15.76
+ },
+ "by_size": {
+  "1": {
+   "n": 4,
+   "tip_pct": 21.73
+  },
+  "2": {
+   "n": 156,
+   "tip_pct": 16.57
+  },
+  "3": {
+   "n": 38,
+   "tip_pct": 15.21
+  },
+  "4": {
+   "n": 37,
+   "tip_pct": 14.59
+  },
+  "5": {
+   "n": 5,
+   "tip_pct": 14.15
+  },
+  "6": {
+   "n": 4,
+   "tip_pct": 15.62
+  }
+ },
+ "pivot_day_time": {
+  "Dinner": {
+   "Fri": 19.66,
+   "Sat": 20.44,
+   "Sun": 21.41,
+   "Thur": 18.78
+  },
+  "Lunch": {
+   "Fri": 12.85,
+   "Sat": 0.0,
+   "Sun": 0.0,
+   "Thur": 17.66
+  }
+ },
+ "corr_bill_tip": 0.676,
+ "corr_bill_tip_pct": -0.339,
+ "top_tip_pct": [
+  {
+   "total_bill": 7.25,
+   "tip": 5.15,
+   "size": 2,
+   "tip_pct": 71.03
+  },
+  {
+   "total_bill": 9.6,
+   "tip": 4.0,
+   "size": 2,
+   "tip_pct": 41.67
+  },
+  {
+   "total_bill": 3.07,
+   "tip": 1.0,
+   "size": 1,
+   "tip_pct": 32.57
+  }
+ ],
+ "fit": {
+  "slope": 0.105,
+  "intercept": 0.92,
+  "r2": 0.457
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "numpy_loop_s": 0.0652,
+ "numpy_vec_s": 0.00095,
+ "numpy_speedup": 68.5,
+ "dot_speedup": 115.4,
+ "pd_iterrows_s": 0.734,
+ "pd_apply_s": 0.214,
+ "pd_vector_s": 0.00014,
+ "pd_speedup_iter_vs_vec": 5243.0,
+ "sql_matches_pandas": true,
+ "sql_result": [
+  {
+   "cut": "Premium",
+   "n": 5505,
+   "avg_price": 4744.7
+  },
+  {
+   "cut": "Fair",
+   "n": 811,
+   "avg_price": 4494.0
+  },
+  {
+   "cut": "Very Good",
+   "n": 4936,
+   "avg_price": 4461.8
+  },
+  {
+   "cut": "Ideal",
+   "n": 6466,
+   "avg_price": 4450.5
+  },
+  {
+   "cut": "Good",
+   "n": 2282,
+   "avg_price": 4405.9
+  }
+ ],
+ "cm_rf": [
+  [
+   97,
+   13
+  ],
+  [
+   21,
+   48
+  ]
+ ],
+ "sk": {
+  "Logistic Regression": {
+   "cv_acc": 0.796,
+   "test_acc": 0.804,
+   "test_f1": 0.724
+  },
+  "Random Forest": {
+   "cv_acc": 0.789,
+   "test_acc": 0.81,
+   "test_f1": 0.738
+  }
+ },
+ "majority_baseline": 0.615
+}

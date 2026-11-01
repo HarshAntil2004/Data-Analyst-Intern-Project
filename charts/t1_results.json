@@ -1,0 +1,53 @@
+{
+ "types": {
+  "int": "int",
+  "float": "float",
+  "str": "str",
+  "bool": "bool",
+  "list": "list",
+  "tuple": "tuple",
+  "dict": "dict",
+  "set": "set"
+ },
+ "float_gotcha": [
+  0.30000000000000004,
+  false,
+  true
+ ],
+ "bill": {
+  "n": 244,
+  "mean": 19.79,
+  "median": 17.8,
+  "mode": 13.42,
+  "std": 8.9,
+  "var": 79.3,
+  "min": 3.07,
+  "max": 50.81,
+  "q1": 13.35,
+  "q3": 24.13,
+  "iqr": 10.78,
+  "skew": 1.13,
+  "kurtosis": 1.22
+ },
+ "clt": {
+  "pop_mean": 19.79,
+  "mean_of_means": 19.79,
+  "pop_skew": 1.13,
+  "means_skew": 0.24,
+  "se_theory": 1.63,
+  "se_observed": 1.61
+ },
+ "ci95_bill": [
+  18.66,
+  20.91
+ ],
+ "ttest_dinner_lunch": {
+  "dinner_mean": 20.8,
+  "lunch_mean": 17.17,
+  "t": 3.12,
+  "p": 0.0022
+ },
+ "pearson": 0.676,
+ "spearman": 0.679,
+ "coin_heads": 0.4968
+}

@@ -1,0 +1,109 @@
+{
+ "shape_raw": [
+  891,
+  15
+ ],
+ "dtypes": {
+  "survived": "int64",
+  "pclass": "int64",
+  "sex": "str",
+  "age": "float64",
+  "sibsp": "int64",
+  "parch": "int64",
+  "fare": "float64",
+  "embarked": "str",
+  "class": "str",
+  "who": "str",
+  "adult_male": "bool",
+  "deck": "str",
+  "embark_town": "str",
+  "alive": "str",
+  "alone": "bool"
+ },
+ "missing": {
+  "age": 177,
+  "embarked": 2,
+  "deck": 688,
+  "embark_town": 2
+ },
+ "missing_pct": {
+  "age": 19.9,
+  "embarked": 0.2,
+  "deck": 77.2,
+  "embark_town": 0.2
+ },
+ "duplicates": 107,
+ "overall_survival": 38.4,
+ "shape_clean": [
+  784,
+  14
+ ],
+ "missing_after": 0,
+ "fare_outliers": 102,
+ "fare_upper": 73.2,
+ "age_outliers": 15,
+ "age_upper": 62.0,
+ "fare_skew": 4.57,
+ "log_fare_skew": 0.42,
+ "surv_by_sex": {
+  "female": 74.1,
+  "male": 21.6
+ },
+ "surv_by_class": {
+  "1": 63.1,
+  "2": 50.9,
+  "3": 25.7
+ },
+ "surv_by_agegroup": {
+  "Child": 57.4,
+  "Teen": 44.8,
+  "Young adult": 40.2,
+  "Adult": 38.7,
+  "Senior": 22.7
+ },
+ "surv_by_port": {
+  "Cherbourg": 58.1,
+  "Queenstown": 33.9,
+  "Southampton": 37.4
+ },
+ "surv_by_family": {
+  "Alone": 33.6,
+  "2-4": 57.6,
+  "5+": 18.2
+ },
+ "sex_class": {
+  "female": {
+   "1": 96.8,
+   "2": 91.8,
+   "3": 47.2
+  },
+  "male": {
+   "1": 37.2,
+   "2": 18.5,
+   "3": 15.8
+  }
+ },
+ "fare_by_class_median": {
+  "1": 60.29,
+  "2": 18.75,
+  "3": 8.05
+ },
+ "age_mean": 29.6,
+ "corr_surv": {
+  "survived": 1.0,
+  "pclass": -0.333,
+  "age": -0.075,
+  "fare": 0.247,
+  "sibsp": -0.037,
+  "parch": 0.07,
+  "family_size": 0.015
+ },
+ "chi2_sex": [
+  206.4,
+  8.383408590582411e-47
+ ],
+ "ttest_fare": [
+  6.39,
+  4.325531256915416e-10
+ ]
+}

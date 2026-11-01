@@ -1,0 +1,183 @@
+{
+ "raw_shape": [
+  6433,
+  14
+ ],
+ "missing": {
+  "payment": 44,
+  "pickup_zone": 26,
+  "dropoff_zone": 45,
+  "pickup_borough": 26,
+  "dropoff_borough": 45
+ },
+ "clean_shape": [
+  6304,
+  21
+ ],
+ "total_revenue": 115363.0,
+ "avg_total": 18.3,
+ "avg_distance": 3.01,
+ "avg_minutes": 14.4,
+ "avg_fare": 12.87,
+ "color_share": {
+  "yellow": 84.9,
+  "green": 15.1
+ },
+ "rev_by_color": {
+  "count": {
+   "green": 951,
+   "yellow": 5353
+  },
+  "mean": {
+   "green": 16.5,
+   "yellow": 18.62
+  },
+  "sum": {
+   "green": 15692.9,
+   "yellow": 99670.36
+  }
+ },
+ "pay_share": {
+  "credit card": 71.8,
+  "cash": 28.2
+ },
+ "tip_pct_cc_mean": 23.9,
+ "tip_recorded_cash_share": 0.0,
+ "cc_zero_tip_share": 9.7,
+ "borough_pickups": {
+  "Manhattan": 82.7,
+  "Queens": 9.9,
+  "Brooklyn": 5.9,
+  "Bronx": 1.5
+ },
+ "borough_rev": {
+  "count": {
+   "Bronx": 97,
+   "Brooklyn": 372,
+   "Manhattan": 5212,
+   "Queens": 623
+  },
+  "mean": {
+   "Bronx": 22.46,
+   "Brooklyn": 19.29,
+   "Manhattan": 16.59,
+   "Queens": 31.34
+  },
+  "sum": {
+   "Bronx": 2178.46,
+   "Brooklyn": 7177.57,
+   "Manhattan": 86482.61,
+   "Queens": 19524.62
+  }
+ },
+ "borough_revpermin": {
+  "Bronx": 0.91,
+  "Brooklyn": 1.06,
+  "Manhattan": 1.4,
+  "Queens": 1.31
+ },
+ "peak_hour_trips": 18,
+ "peak_hour_count": 416,
+ "quiet_hour_trips": 5,
+ "quiet_hour_count": 50,
+ "hour_avg_total_max": [
+  5,
+  24.07
+ ],
+ "hour_mph": {
+  "0": 14.4,
+  "1": 15.2,
+  "2": 16.1,
+  "3": 15.1,
+  "4": 17.0,
+  "5": 19.2,
+  "6": 15.2,
+  "7": 12.9,
+  "8": 10.4,
+  "9": 10.1,
+  "10": 10.2,
+  "11": 10.0,
+  "12": 11.0,
+  "13": 10.3,
+  "14": 9.9,
+  "15": 10.2,
+  "16": 9.8,
+  "17": 10.1,
+  "18": 10.3,
+  "19": 11.2,
+  "20": 11.8,
+  "21": 12.5,
+  "22": 12.9,
+  "23": 12.9
+ },
+ "rpm_by_hour_top3": {
+  "5": 1.87,
+  "4": 1.84,
+  "6": 1.69
+ },
+ "rpm_by_hour_bottom3": {
+  "14": 1.22,
+  "10": 1.22,
+  "9": 1.23
+ },
+ "evening_share": 30.2,
+ "dow_counts": {
+  "Friday": 1085,
+  "Monday": 698,
+  "Saturday": 1019,
+  "Sunday": 854,
+  "Thursday": 892,
+  "Tuesday": 804,
+  "Wednesday": 952
+ },
+ "pax_share": {
+  "1": 72.6,
+  "2": 13.7,
+  "5": 4.4,
+  "3": 3.8
+ },
+ "tolls_share_trips": 5.3,
+ "toll_avg_total": 55.49,
+ "short_trip_share": 58.1,
+ "short_trip_rev_share": 37.1,
+ "long_trip_share": 8.9,
+ "long_trip_rev_share": 25.0,
+ "rpm_short_vs_long": [
+  1.54,
+  1.36
+ ],
+ "rpmile_short_vs_long": [
+  10.73,
+  3.95
+ ],
+ "corr_dist_total": 0.944,
+ "top_routes": {
+  "Upper East Side North -> Upper East Side North": [
+   38,
+   353.2
+  ],
+  "Upper East Side South -> Upper East Side North": [
+   30,
+   355.2
+  ],
+  "Astoria -> Astoria": [
+   22,
+   157.5
+  ],
+  "Upper East Side North -> Upper East Side South": [
+   22,
+   260.2
+  ],
+  "Central Harlem -> Central Harlem North": [
+   20,
+   166.7
+  ]
+ },
+ "top_pickup_zones": {
+  "Midtown Center": 226,
+  "Penn Station/Madison Sq West": 209,
+  "Upper East Side South": 208,
+  "Clinton East": 207,
+  "Midtown East": 196
+ }
+}
